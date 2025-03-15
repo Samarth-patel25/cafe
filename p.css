@@ -108,7 +108,7 @@
   .hot-seller {
     padding: 60px 20px;
     background: #fff6e5;
-    margin-bottom: 100PX;
+    margin-bottom: 100px;
   }
   
   .pizza-container {
@@ -121,7 +121,7 @@
   /* Item Cards */
   .item {
     background: white;
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
     width: 260px;
     padding: 0;
     border-radius: 15px;
