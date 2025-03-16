@@ -219,11 +219,11 @@ footer {
         align-items: center;
     }
     .features {
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
     }
     .items-container, .offer-container {
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
     }
 }
