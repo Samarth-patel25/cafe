@@ -39,6 +39,9 @@
     font-size: 18px;
     font-weight: bold;
   }
+  /* .nav-links a:hover{
+    color: bisque;
+  } */
   .logo_container img{
     border: solid;
     border-color: white;
@@ -112,7 +115,7 @@
   }
   
   /* Hot Seller Section */
-  .hot-seller {
+  .hot-seller,.veg,.Non-veg {
     padding: 60px 20px;
     background: #fff6e5;
     margin-bottom: 100PX;
@@ -158,11 +161,6 @@
     transition: transform 0.5s ease;
   }
   
-  /* .item:hover img {
-    transform: scale(1.05);
-  } */
-  
-  
   .item h3 {
     padding: 15px 15px 5px;
     font-size: 20px;
@@ -194,9 +192,8 @@
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
-    /* transition: background-color 0.3s ease; */
   }
-  
+ 
   button.add:hover {
     background-color: #2e7d32;
   }
@@ -221,4 +218,3 @@
         margin-top: 10px;
     }
   }
-  
