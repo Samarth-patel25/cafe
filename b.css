@@ -205,32 +205,69 @@
     font-size: 16px;
   }
 
-@media only screen and (max-width: 650px) {
-   .navigation {
-        flex-direction: column;
-        width: 100%;
-      }
-      
-      .logo_container {
-        justify-content: center;
-        margin: 10px auto 0;
-      }
-      
-      .logo_container img {
-        height: 100px;
-      }
-      
-      .logo_name {
-        justify-content: center;
-        margin: 0 auto 10px;
-        font-size: x-large;
-      }
-      
-      .nav-links {
-        margin: 10px auto;
-        padding-bottom: 10px;
-        width: 100%;
-        justify-content: center;
-      }    
+@media screen and (max-width: 650px) {
+  .navigation {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .logo_container {
+    justify-content: center;
+    margin: 10px auto 0;
+  }
+  
+  .logo_container img {
+    height: 100px;
+  }
+  
+  .logo_name {
+    justify-content: center;
+    margin: 0 auto 10px;
+    font-size: x-large;
+  }
+  
+  .nav-links {
+    margin: 10px auto;
+    padding-bottom: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .burger.container {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .item {
+    width: 90%;
+    max-width: 320px;
+  }
+  
+  .page-title {
+    height: 180px;
+    padding: 20px;
+  }
+  
+  .page-title h1 {
+    font-size: 28px;
+  }
+  
+  .page-title p {
+    font-size: 16px;
+  }
+  
+  .section-header h2 {
+    font-size: 26px;
+  }
+  
+  .hot-seller, .veg, .Non-veg {
+    padding: 40px 15px;
+    margin-bottom: 50px;
+  }
+  
+  .item-image {
+    height: 150px;
+  }
 }
   
