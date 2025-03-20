@@ -201,30 +201,93 @@ footer {
     padding: 15px;
     font-size: 16px;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 480px) {
     nav {
         flex-direction: column;
         text-align: center;
         width: 100%;
-        font-size: x-small;
     }
+    
+    .navigation {
+        width: 100%;
+    }
+    
+    .logo_container img {
+        height: 100px;
+    }
+    
+    .logo_name {
+        font-size: xx-large;
+        margin-bottom: 20px;
+    }
+    
     .nav-links {
-        margin-left: 0px;
+        margin-left: 0;
         flex-direction: column;
         gap: 10px;
         margin-top: 10px;
+        padding-bottom: 10px;
     }
+    
+    .nav-links li {
+        margin: 5px 0;
+    }
+    
+    .main_photo img {
+        height: 250px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
     .container {
         flex-direction: column;
         align-items: center;
+        gap: 20px;
     }
+    
+    .content {
+        padding: 15px;
+        margin: 20px auto;
+    }
+    
+    .main h1 {
+        font-size: 24px;
+    }
+    
+    .content p h2 {
+        font-size: 16px;
+    }
+    
     .features {
         flex-direction: column;
         align-items: center;
+        margin: 40px 0;
+        gap: 30px;
+        padding: 20px;
     }
+    
+    .feature {
+        margin-right: 0;
+    }
+    
     .items-container, .offer-container {
         flex-direction: column;
         align-items: center;
+        gap: 15px;
+    }
+    
+    .item {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    
+    .popular-items, .Exclusive-offer {
+        padding: 30px 10px;
+        margin-bottom: 40px;
+    }
+    
+    .popular-items h2, .Exclusive-offer h2 {
+        font-size: 28px;
     }
 }
 
