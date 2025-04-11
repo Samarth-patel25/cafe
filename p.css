@@ -7,7 +7,7 @@ html,
 body{
   line-height: 1.4;
   font-weight: 300;
-  font-style: oblique;
+  /* font-style: oblique; */
   background-color: bisque;
   
 }
@@ -126,13 +126,16 @@ nav {
   /* Hot Seller Section */
   .hot-seller {
     padding: 60px 20px;
-    background: #fff6e5;
+   background: #fff6e5;
     margin-bottom: 100PX;
-  }
+  } 
   
   .pizza-container {
-    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr)); */
     justify-content: center;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
   }
@@ -158,8 +161,8 @@ nav {
   }
   
   .item-image {
-    /* position: relative;
-    overflow: hidden; */
+    position: relative;
+    overflow: hidden;
     height: 180px;
   }
   
@@ -234,7 +237,9 @@ nav {
   align-items: center;
   margin-bottom: 20px;
 }
-
+.footer-logo p {
+  margin-top: 20px;
+}
 .footer-logo img {
   width: 80px;
   height: 80px;
