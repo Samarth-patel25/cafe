@@ -281,3 +281,268 @@ nav {
     padding-top: 20px;
     margin-top: 20px;
 }
+
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+
+    nav {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .navigation {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .logo_container {
+        justify-content: center;
+        margin: 10px auto;
+    }
+    
+    .logo_container img {
+        height: 100px;
+    }
+    
+    .logo_name {
+        font-size: x-large;
+        margin: 0 auto 10px;
+    }
+    
+    .nav-links {
+        margin: 10px auto;
+        padding-bottom: 10px;
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
+    }
+    
+    .text,.f-text,.promise{
+        display: flex;
+        flex-direction: column;
+    }
+    .t-image img{
+        width: 100%;
+        height: 100%;
+        size: 100%;
+    }
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .footer-links {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 789px) {
+
+    nav {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .navigation {
+        padding: 0 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nav-links {
+        margin-left: auto;
+        /* padding-top: 0px; */
+        /* padding: 30ox;     */
+     
+    }
+    .text,.f-text,.promise{
+        display: flex;
+        flex-direction: column;
+    }
+    .t-image img{
+        align-items: center;
+        align-self: center;
+        /* margin-top: 50px; */
+    }
+    
+    .logo_container img {
+        height: 130px;
+    }
+    
+    .content {
+        padding: 0 40px;
+    }
+    
+    .footer-container {
+        padding: 0 30px;
+    }
+}
+
+/* 720p (HD) - 1280×720 */
+@media only screen and (min-width: 790px) and (max-width: 1280px) {
+
+    nav {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .navigation {
+        padding: 0 20px;
+        width: 100%;
+    }
+    
+    .nav-links {
+        margin-left: 5%;
+    }
+
+    nav {
+        width: 100%;
+    }
+    
+    .container {
+        max-width: 1100px;
+    }
+     .t-image{
+        align-content: center;
+     }
+     .promise{
+        gap: 5px;
+     }
+    
+    .logo_container img {
+        height: 120px;
+    }
+    
+    .logo_name {
+        font-size: xx-large;
+    }
+    
+    .content {
+        padding: 0 30px;
+    }
+}
+
+/* 768p - Common tablet breakpoint */
+@media only screen and (min-width: 767px) and (max-width: 1366px) {
+
+    nav {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .navigation {
+        padding: 0 30px;
+        width: 100%;
+        /* display: flex;
+        flex-direction: column; */
+    }
+    
+    .nav-links {
+        margin-left: auto;
+        margin-left: 38px;
+     
+    }
+
+    .container {
+        max-width: 1100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .main_photo {
+        align-self: center;
+    }
+    
+    
+    .logo_container img {
+        height: 130px;
+    }
+    
+    .footer-container {
+        padding: 0 30px;
+    }
+}
+
+/* 1080p (Full HD) - 1920×1080*/
+@media only screen and (min-width: 1367px) and (max-width: 1920px) {
+
+    nav {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .navigation{
+        width: 100%;
+    }
+    
+    .nav-links{
+        margin-left: 40%;
+    }
+    
+}
+
+/* 1200p & 1440p (2K resolutions) */
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+
+    nav {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .navigation{
+        width: 100%;
+    }
+    
+    .nav-links{
+        margin-left: 40%;
+    }
+
+    .container {
+        max-width: 1400px;
+    }
+    
+    .logo_container img {
+        height: 180px;
+    }
+    
+    .logo_name {
+        font-size: 48px;
+    }
+    
+    .footer-container {
+        max-width: 1400px;
+    }
+}
+
+/* 1600p and above (4K resolutions) */
+@media only screen and (min-width: 2561px) {
+
+    nav {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .navigation{
+        width: 100%;
+    }
+    
+    .nav-links{
+        margin-left: 40%;
+    }
+
+    .container {
+        max-width: 1800px;
+    }
+    
+    .logo_container img {
+        height: 220px;
+    }
+    
+    .logo_name {
+        font-size: 56px;
+    }
+    
+    .footer-container {
+        max-width: 1800px;
+    }
+}
