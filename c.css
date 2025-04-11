@@ -95,6 +95,9 @@ nav {
   align-items: center;
   margin-bottom: 20px;
 }
+.footer-logo p {
+  margin-top: 20px;
+}
 
 .footer-logo img {
   width: 80px;
@@ -184,7 +187,7 @@ nav {
   position: relative;
   max-width: 600px;
   animation: fadeIn 2s ease-in-out;
-  padding-left: 30px;
+  /* padding-left: 30px; */
   
 }
 .content h3 {
