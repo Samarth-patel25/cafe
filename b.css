@@ -7,7 +7,7 @@
   body{
     line-height: 1.4;
     font-weight: 300;
-    font-style: oblique;
+    /* font-style: oblique; */
     background-color: bisque;
   }
   nav {
@@ -225,6 +225,9 @@
   align-items: center;
   margin-bottom: 20px;
 }
+.footer-logo p {
+  margin-top: 20px;
+}
 
 .footer-logo img {
   width: 80px;
@@ -287,140 +290,3 @@
   margin-top: 20px;
 }
 
-/* Tablet Styles (768px - 1024px) */
-@media screen and (max-width: 1024px) {
-  .burger.container {
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-  }
-  
-  .item {
-    width: calc(50% - 30px);
-    min-width: 250px;
-  }
-  
-  .page-title {
-    height: 200px;
-    padding: 30px 20px 20px;
-  }
-  
-  .page-title h1 {
-    font-size: 36px;
-  }
-  
-  .logo_name {
-    font-size: xx-large;
-    margin-bottom: 40px;
-  }
-}
-
-/* Mobile Styles (up to 767px) */
-@media screen and (max-width: 650px){
-  .navigation {
-    flex-direction: column;
-    width: 100%;
-  }
-  
-  .logo_container {
-    justify-content: center;
-    margin: 10px auto 0;
-  }
-  
-  .logo_container img {
-    height: 100px;
-  }
-  
-  .logo_name {
-    justify-content: center;
-    margin: 0 auto 10px;
-    font-size: x-large;
-  }
-  
-  .nav-links {
-    margin: 10px auto;
-    padding-bottom: 10px;
-    width: 100%;
-    justify-content: center;
-  }
-  
-  .burger.container {
-    flex-direction: column;
-    gap: 30px;
-    align-items: center;
-  }
-  
-  .item {
-    width: 90%;
-    max-width: 320px;
-  }
-  
-  .page-title {
-    height: 180px;
-    padding: 20px;
-  }
-  
-  .page-title h1 {
-    font-size: 28px;
-  }
-  
-  .page-title p {
-    font-size: 16px;
-  }
-  
-  .section-header h2 {
-    font-size: 26px;
-  }
-  
-  .hot-seller, .veg, .Non-veg {
-    padding: 40px 15px;
-    margin-bottom: 50px;
-  }
-  
-  .item-image {
-    height: 150px;
-  }
-}
-
-/* Small Mobile Styles (up to 480px) */
-/* @media screen and (max-width: 480px) {
-  .logo_container img {
-    height: 80px;
-  }
-  
-  .logo_name {
-    font-size: large;
-  }
-  
-  .nav-links li {
-    margin: 0 8px;
-  }
-  
-  .nav-links a {
-    font-size: 16px;
-  }
-  
-  .page-title {
-    height: 150px;
-  }
-  
-  .page-title h1 {
-    font-size: 24px;
-  }
-  
-  .page-title p {
-    font-size: 14px;
-  }
-  
-  .item h3 {
-    font-size: 18px;
-  }
-  
-  .price {
-    font-size: 16px;
-  }
-  
-  .description {
-    font-size: 12px;
-  }
-} */
